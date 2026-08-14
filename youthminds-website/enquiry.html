@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry | Young & Heard Wellness Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Young & Heard </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html" class="active">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="contact.html" class="cta-button">Talk to Someone</a>
+    </header>
+
+    <main>
+        <section class="page-intro">
+            <h1>Make an Enquiry</h1>
+            <p>Whether you want to join a peer circle, bring a programme to your school, or get involved as a volunteer or sponsor, start here.</p>
+        </section>
+
+        <!--
+            Enquiry form: currently a static HTML structure only (Part 1).
+            Form submission handling (validation, sending data) will be added
+            with JavaScript in a later part of the project.
+        -->
+        <section class="enquiry-form">
+            <form action="#" method="post">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" min="13" max="24">
+
+                <label for="reason">What are you enquiring about?</label>
+                <select id="reason" name="reason">
+                    <option value="peer-circle">Joining a Peer Circle</option>
+                    <option value="school-programme">School Programme Request</option>
+                    <option value="counselling">Referral Counselling</option>
+                    <option value="volunteer">Volunteering</option>
+                    <option value="sponsor">Sponsorship</option>
+                </select>
+
+                <label for="message">Tell us a bit more</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+
+                <button type="submit">Submit Enquiry</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>YouthMinds Wellness Hub &mdash; a safe space to be heard.</p>
+        <p>If you are in crisis, please see our <a href="contact.html">Contact page</a> for immediate helpline numbers.</p>
+        <p>&copy; 2026 YouthMinds Wellness Hub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
