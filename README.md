@@ -50,16 +50,28 @@ The website was tested across mobile (375px), tablet (768px), and desktop (1024p
 
 ### Home Page
 
-![Home - Mobile](css/screenshots/home-mobile.png)
-
-![Home - Tablet](css/screenshots/home-tablet.png)
-
-![Home - Desktop](css/screenshots/home-desktop.png)
+![Home - Mobile](css/screenshots/index-mobile.png)
+![Home - Tablet](css/screenshots/index-tablet.png)
+![Home - Desktop](css/screenshots/index-desktop.png)
 
 ### About Page
 
 ![About - Mobile](css/screenshots/about-mobile.png)
-
 ![About - Tablet](css/screenshots/about-tablet.png)
 
-![About - Desktop](css/screenshots/about-desktop.png)
+### Services Page
+
+![Services - Mobile](css/screenshots/services-mobile.png)
+![Services - Tablet](css/screenshots/services-tablet.png)
+
+### Enquiry Page
+
+![Enquiry - Mobile](css/screenshots/enquiry-mobile.png)
+![Enquiry - Tablet](css/screenshots/enquiry-tablet.png)
+![Enquiry - Desktop](css/screenshots/enquiry-desktop.png)
+
+### Contact Page
+
+![Contact - Mobile](css/screenshots/contact-mobile.png)
+![Contact - Tablet](css/screenshots/contact-tablet.png)
+![Contact - Desktop](css/screenshots/contact-desktop.png)
