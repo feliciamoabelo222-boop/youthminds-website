@@ -50,36 +50,36 @@ The website was tested across mobile (375px), tablet (768px), and desktop (1024p
 
 ### Home Page
 
-![Home - Mobile](css/screenshots/index-mobile.png)
+![Home - Mobile](youthminds-website/css/screenshots/index-mobile.png)
 
-![Home - Tablet](css/screenshots/index-tablet.png)
+![Home - Tablet](youthminds-website/css/screenshots/index-tablet.png)
 
-![Home - Desktop](css/screenshots/index-desktop.png)
+![Home - Desktop](youthminds-website/css/screenshots/index-desktop.png)
 
 ### About Page
 
-![About - Mobile](css/screenshots/about-mobile.png)
+![About - Mobile](youthminds-website/css/screenshots/about-mobile.png)
 
-![About - Tablet](css/screenshots/about-tablet.png)
+![About - Tablet](youthminds-website/css/screenshots/about-tablet.png)
 
 ### Services Page
 
-![Services - Mobile](css/screenshots/services-mobile.png)
+![Services - Mobile](youthminds-website/css/screenshots/services-mobile.png)
 
-![Services - Tablet](css/screenshots/services-tablet.png)
+![Services - Tablet](youthminds-website/css/screenshots/services-tablet.png)
 
 ### Enquiry Page
 
-![Enquiry - Mobile](css/screenshots/enquiry-mobile.png)
+![Enquiry - Mobile](youthminds-website/css/screenshots/enquiry-mobile.png)
 
-![Enquiry - Tablet](css/screenshots/enquiry-tablet.png)
+![Enquiry - Tablet](youthminds-website/css/screenshots/enquiry-tablet.png)
 
-![Enquiry - Desktop](css/screenshots/enquiry-desktop.png)
+![Enquiry - Desktop](youthminds-website/css/screenshots/enquiry-desktop.png)
 
 ### Contact Page
 
-![Contact - Mobile](css/screenshots/contact-mobile.png)
+![Contact - Mobile](youthminds-website/css/screenshots/contact-mobile.png)
 
-![Contact - Tablet](css/screenshots/contact-tablet.png)
+![Contact - Tablet](youthminds-website/css/screenshots/contact-tablet.png)
 
-![Contact - Desktop](css/screenshots/contact-desktop.png)
+![Contact - Desktop](youthminds-website/css/screenshots/contact-desktop.png)
