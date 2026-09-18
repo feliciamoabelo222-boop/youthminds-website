@@ -1,20 +1,30 @@
 # Young & Heard Wellness Hub
+
 A website for Young and Heard Wellness Hub - connecting young people aged 13-24 with peer support, counselling, and mental health resouces.
+
 ## Changelog
+
 ### [Part 2] - CSS Styling and Responsive Design
+
 **Date: 15 September 2026
+
 **Added:**
+
 -External stylesheet styling for the header, hero section, conversation-bubble strip, offerings grid, and parents callout section on the homepage.
 -Mobile-first responsive design using media queries at 768px (tablet) and 1024px (desktop).
 -Flexbox layout for the header/navigation and hero section.
 -CSS Grid layout for the offerings cards (1 column on mobile, 2 on tablet, 3 on desktop)
 -Chat-bubble styling (left/right aligned) to visually represent the peer-support conversation example.
 -Rounded corners, background colours, and spacing to give the site a consistent visual identity.
+
 **Fixed (from Part 1 feedback):**
+
 -Added a comprehensive README.md document to the repository (previously missing- scored 0/5).
 -Added a Changelog section to the README, recording development history (previously missing- scored 0/5).
 -Added a References section to the README, correctly formatted (previously missing - scored 0/5).
+
 ## References
+
 -Mozilla Development Network (MDN). CSS Flexbox layout. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexiable_box_layout (Accessed: 15 September 2026).
 -Mozilla Development Network (MDN). CSS Grid Layout. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout (Accessed: 15 September 2026).
 -Mozilla Development Network (MDN). Using Media Queries. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries (Accessed: 15 September 2026).
