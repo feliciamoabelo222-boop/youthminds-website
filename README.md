@@ -42,4 +42,4 @@ A website for Young and Heard Wellness Hub - connecting young people aged 13-24 
 
 - Mozilla Development Network (MDN). Responsive Images. https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images (Accessed: 15 September 2026).
 
-- W3Schools. CSS Responsive Web Design. https://www.w3schools.com/com/css_rwd_intro.asp (Accessed: 15 September 2026). 
+- W3Schools. CSS Responsive Web Design. https://www.w3schools.com/css_rwd_intro.asp (Accessed: 15 September 2026). 
