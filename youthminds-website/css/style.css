@@ -99,3 +99,465 @@ footer {
     border-top: 1px solid #ddd;
     font-size: 0.9rem;
 }
+
+/* ===== MOBILE BASE STYLES (override the desktop-leaning defaults above) ===== */
+
+header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+header nav ul {
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+}
+
+main {
+    padding: 1.5rem 1rem;
+}
+
+body {
+    font-size: 0.95rem;
+}
+
+/* ===== TABLET (768px and up) ===== */
+@media (min-width: 768px) {
+    header {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    header nav ul {
+        flex-direction: row;
+        width: auto;
+    }
+
+    main {
+        padding: 2rem;
+    }
+
+    body {
+        font-size: 1rem;
+    }
+}
+
+/* ===== DESKTOP (1024px and up) ===== */
+@media (min-width: 1024px) {
+    main {
+        max-width: 900px;
+    }
+
+    section {
+        margin-bottom: 3rem;
+    }
+}
+
+/* ===== HEADER (mobile-first: stacked) ===== */
+header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #241F3D;
+}
+
+header nav ul {
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+}
+
+header .cta-button {
+    align-items: flex-start;
+}
+
+/* ===== HERO ===== */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.75rem;
+}
+
+.hero-text p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-image img {
+    border-radius: 8px;
+}
+
+/* ===== CONVERATION STRIP ===== */
+.conversation-strip {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.bubble {
+    padding: 0.75rem 1rem;
+    border-radius: 16px;
+    max-width: 85%;
+    font-style: italic;
+}
+
+.bubble-left {
+    background-color: #f0edfc;
+    align-self: flex-start;
+    border-top-left-radius: 4px;
+}
+
+/* ===== OFFERINGS ===== */
+.offerings h2,
+.parents-callout h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.offerings-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 1.25rem;
+    background-color: #fafafa;
+}
+
+/* ===== PARENTS CALLOUT ===== */
+.parents-callout {
+    text-align: center;
+    background: #f5f3fd;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+}
+
+/* ===============================================
+   TABLET (768px and up)
+   =============================================== */
+   @media (min-width: 768px) {
+    .header {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header nav ul {
+        flex-direction: row;
+        width: auto;
+    }
+
+    .hero {
+        flex-direction: row;
+        text-align: left;
+    }
+
+     .hero-text ,
+        .hero-image {
+        flex: 1;
+    
+    }
+
+    .offerings-grid {
+        grid-template-columns: repeat(2, 1fr);
+    } 
+}
+
+/* ===============================================
+   DESKTOP (1024px and up)
+   =============================================== */
+   @media (min-width: 1024px) {
+    main {
+        max-width: 900px;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+    
+    }
+
+    .offerings-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .bubble {
+        max-width: 60%;
+    }
+}
+
+/* ===== PAGE INTRO ===== */
+.page-intro {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #f5f3fd;
+}
+
+.page-intro h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+/* ===== SERVICE DETAIL BLOCKS ===== */
+.service-detail {
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.service-detail h2 {
+    color: #6C5CE7;
+    margin-bottom: 0.75rem;
+}
+
+.service-detail p {
+    line-height: 1.6;
+}
+
+/* ===== CTA SECTION ===== */
+.cta-section {
+    text-align: center;
+    background: #f5f3fd;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+
+.cta-section h2 {
+    margin-bottom: 0.75rem;
+}
+
+.cta-section p {
+    margin-bottom: 1.25rem;
+}
+
+/* ============================================
+   TABLET (768px and up)
+   ============================================ */
+@media (min-width: 768px) {
+    .page-intro {
+        padding: 3rem 2rem;
+    }
+
+    .page-intro h1 {
+        font-size: 2.2rem;
+    }
+
+    .service-detail {
+        padding: 2rem;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .cta-section {
+        padding: 2.5rem 2rem;
+    }
+}
+
+/* ============================================
+   DESKTOP (1024px and up)
+   ============================================ */
+@media (min-width: 1024px) {
+    .page-intro h1 {
+        font-size: 2.6rem;
+    }
+
+    .service-detail p {
+        font-size: 1.05rem;
+    }
+}
+
+/* ===== ENQUIRY FORM ===== */
+.enquiry-form {
+    padding: 1.5rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.enquiry-form form {
+    width: 100%;
+}
+
+.enquiry-form select {
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    background: #fff;
+}
+
+.enquiry-form button {
+    width: 100%;
+}
+
+/* ============================================
+   TABLET (768px and up)
+   ============================================ */
+@media (min-width: 768px) {
+    .enquiry-form {
+        padding: 2.5rem 2rem;
+    }
+
+    .enquiry-form button {
+        width: auto;
+        min-width: 200px;
+        align-self: flex-start;
+    }
+}
+
+/* ============================================
+   DESKTOP (1024px and up)
+   ============================================ */
+@media (min-width: 1024px) {
+    .enquiry-form {
+        padding: 3rem 2rem;
+    }
+
+    .enquiry-form form {
+        max-width: 550px;
+    }
+}
+/* ===== CRISIS INFO (high visibility, urgent) ===== */
+.crisis-info {
+    background: #6C5CE7;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+.crisis-info h2 {
+    margin-bottom: 0.5rem;
+}
+
+.crisis-info strong {
+    font-size: 1.3rem;
+}
+
+/* ===== GENERAL CONTACT ===== */
+.contact-details {
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+.contact-details h2 {
+    margin-bottom: 0.75rem;
+}
+
+.contact-details a {
+    color: #6C5CE7;
+}
+
+/* ===== LOCATIONS ===== */
+.locations {
+    padding: 1.5rem 1rem;
+}
+
+.locations h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.location {
+    margin-bottom: 2rem;
+}
+
+.location h3 {
+    color: #6C5CE7;
+    margin-bottom: 0.5rem;
+}
+
+.location iframe {
+    border-radius: 8px;
+    margin-top: 0.75rem;
+}
+
+/* ===== CONTACT FORM ===== */
+.contact-form {
+    padding: 1.5rem 1rem;
+    background: #fafafa;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contact-form form {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.contact-form button {
+    width: 100%;
+}
+
+/* ============================================
+   TABLET (768px and up)
+   ============================================ */
+@media (min-width: 768px) {
+    .crisis-info,
+    .contact-details,
+    .locations,
+    .contact-form {
+        padding: 2.5rem 2rem;
+    }
+
+    .locations-grid,
+    .location {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-form button {
+        width: auto;
+        min-width: 200px;
+    }
+}
+
+/* ============================================
+   DESKTOP (1024px and up)
+   ============================================ */
+@media (min-width: 1024px) {
+    .locations {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .location {
+        display: flex;
+        gap: 2rem;
+        align-items: flex-start;
+        max-width: 900px;
+        text-align: left;
+    }
+
+    .location > div,
+    .location h3,
+    .location p {
+        flex: 1;
+    }
+
+    .location iframe {
+        flex: 1;
+        height: 250px;
+    }
+}
+
+
+
+
+
+
+
