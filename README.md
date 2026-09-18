@@ -37,6 +37,7 @@ A website for Young and Heard Wellness Hub - connecting young people aged 13-24 
 -Mozilla Development Network (MDN). CSS Grid Layout. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout (Accessed: 15 September 2026).
 
 -Mozilla Development Network (MDN). Using Media Queries. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries (Accessed: 15 September 2026).
+
 -Mozilla Development Network (MDN). CSS Values and Units. https://develper.mozilla.org/en-US/docs/Web/CSS/CSS_values_and_units (Accessed: 15 September 2026).
 
 -Mozilla Development Network (MDN). Responsive Images. https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images (Accessed: 15 September 2026).
