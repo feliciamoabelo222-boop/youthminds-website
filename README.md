@@ -83,3 +83,9 @@ The website was tested across mobile (375px), tablet (768px), and desktop (1024p
 ![Contact - Tablet](youthminds-website/css/screenshots/contact-tablet.png)
 
 ![Contact - Desktop](youthminds-website/css/screenshots/contact-desktop.png)
+
+### Off-page SEO
+Backlinks: get links from schools, youth organisations and NGOs, and by guest-posting or partnering with other mental health sites.
+Social media: share content on Instagram, TikTok and Facebook, where your 13 to 24 audience is, linking back to the site.
+Local SEO: a Google Business Profile for each office (Johannesburg and Durban), plus local directories.
+
