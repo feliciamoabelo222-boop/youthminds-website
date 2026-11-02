@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Young and Heard Wellness Hub</title>
+    <meta name="description" content="Contact Young and Heard Wellness Hub. Find our 24/7 helpline, office locations in Johannesburg and Durban, and send us a message.">
+    <link rel="stylesheet" href="css/style.css"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Young and Heard Wellness Hub",
+  "email": "hello@youngandheard.org.za",
+  "telephone": "011 000 0000",
+  "address": [
+    { "@type": "PostalAddress", "streetAddress": "123 Hope Street", "addressLocality": "Braamfontein, Johannesburg", "postalCode": "2001", "addressCountry": "ZA" },
+    { "@type": "PostalAddress", "streetAddress": "45 Wellness Road", "addressLocality": "Umhlanga, Durban", "postalCode": "4319", "addressCountry": "ZA" }
+  ]
+}
+</script>
+
+</head>
+<body>
+
+    <header>
+        <div class="logo">Young and Heard</div>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="contact.html" class="cta-button">Talk to Someone</a>
+    </header>
+
+    <main>
+        <section class="page-intro">
+            <h1>Contact Us</h1>
+            <p>If you need to talk to someone right now, please reach out &mdash; you don't need an appointment to call.</p>
+        </section>
+
+        <section class="crisis-info">
+            <h2>Need urgent support?</h2>
+            <p>Our helpline is open 24/7: <strong>0800 000 000</strong></p>
+        </section>
+
+        <section class="contact-details">
+            <h2>General Contact</h2>
+            <p>Email: <a href="mailto:hello@youngandheard.org.za">hello@youngandheard.org.za</a></p>
+            <p>Phone: 011 000 0000</p>
+        </section>
+
+        <section class="locations">
+            <h2>Our Locations</h2>
+
+            <article class="location">
+                <h3>Johannesburg Office</h3>
+                <p>123 Hope Street, Braamfontein, Johannesburg, 2001</p>
+                <iframe
+                    title="Map showing the Johannesburg office location"
+                    src="https://maps.google.com/maps?q=Braamfontein%2C%20Johannesburg&output=embed"
+                    width="100%" height="300" style="border:0;" loading="lazy">
+                </iframe>
+            </article>
+
+            <article class="location">
+                <h3>Durban Office</h3>
+                <p>45 Wellness Road, Umhlanga, Durban, 4319</p>
+                <iframe
+                    title="Map showing the Durban office location"
+                    src="https://maps.google.com/maps?q=Umhlanga%2C%20Durban&output=embed"
+                    width="100%" height="300" style="border:0;" loading="lazy">
+                </iframe>
+            </article>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <p>All fields marked * are required.</p>
+
+            <form id="contact-form" action="#" method="post" novalidate>
+
+                <label for="c-name">Full Name *</label>
+                <input type="text" id="c-name" name="name" required minlength="2" maxlength="60">
+                <span class="error" id="c-name-error"></span>
+
+                <label for="c-email">Email Address *</label>
+                <input type="email" id="c-email" name="email" required>
+                <span class="error" id="c-email-error"></span>
+
+                <label for="c-phone">Phone Number *</label>
+                <input type="tel" id="c-phone" name="phone" placeholder="e.g. 0821234567" required>
+                <span class="error" id="c-phone-error"></span>
+
+                <label for="c-type">Type of Message *</label>
+                <select id="c-type" name="type" required>
+                    <option value="">-- Select --</option>
+                    <option value="General question">General question</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="Partnership or media">Partnership or media</option>
+                    <option value="Complaint">Complaint</option>
+                </select>
+                <span class="error" id="c-type-error"></span>
+
+                <label for="c-message">Your Message * (20&ndash;1000 characters)</label>
+                <textarea id="c-message" name="message" rows="6" required minlength="20" maxlength="1000"></textarea>
+                <span class="error" id="c-message-error"></span>
+
+                <button type="submit">Prepare Email</button>
+            </form>
+
+            <!-- Compiled email appears here after validation -->
+            <div id="email-preview" aria-live="polite"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Young &amp; Heard Wellness Hub &mdash; a safe space to be heard.</p>
+        <p>If you are in crisis, please see our <a href="contact.html">Contact page</a> for immediate helpline numbers.</p>
+        <p>&copy; 2026 Young &amp; Heard Wellness Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="js/menu.js" defer></script>
+    <script src="js/contact.js" defer></script>
+</body>
+</html>
