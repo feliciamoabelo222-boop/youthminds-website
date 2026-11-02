@@ -1,0 +1,7 @@
+{
+  "peer-circle": { "name": "Peer Support Circle", "cost": "Free", "availability": "Weekly circles, spaces currently open" },
+  "school-programme": { "name": "School Programme", "cost": "Free for schools", "availability": "Booked about a month in advance" },
+  "counselling": { "name": "Referral Counselling", "cost": "Varies by counsellor", "availability": "Referral within 2 weeks" },
+  "volunteer": { "name": "Volunteering", "cost": "No cost to volunteer", "availability": "Training starts each month" },
+  "sponsor": { "name": "Sponsorship", "cost": "Packages from R500 per month", "availability": "Open all year" }
+}
